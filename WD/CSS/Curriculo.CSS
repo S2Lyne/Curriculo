@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* folha de estilo */
+
+html,
+
+/* layout */
+.container img{
+    max-width: 200px;
+    width: auto;
+    height: auto;
+    list-style: image();
+    padding: 60px;
+    margin-left: 200px;
+}
+.container img{
+    display:inline-block;
+    border:2px solid red;
+    margin: 4px;
+
+}
+
+#topico{
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    justify-content: center;
+
+}
